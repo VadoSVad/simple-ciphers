@@ -12,6 +12,22 @@ const SimpleCiphers = {
             return String.fromCharCode(parseInt(bin, 2))
         }).join('')
         return dec_text;
+    },
+
+    caesar_encrypt: (text) => {
+        let caesar_text = '';
+        for (t in text) {
+            caesar_text += String.fromCharCode(text.charCodeAt(t) + 1);
+        }
+        return caesar_text;
+    },
+
+    caesar_decrypt: (enc_text) => {
+        let dec_text = '';
+        for (t in enc_text) {
+            dec_text += String.fromCharCode(enc_text.charCodeAt(t) - 1);
+        }
+        return dec_text;
     }
 
 };
