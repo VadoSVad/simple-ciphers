@@ -1,6 +1,6 @@
 {
   "name": "simple-ciphers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A few simple ciphers to encrypt some text",
   "main": "simple-ciphers.js",
   "scripts": {
@@ -8,10 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/VadoSVad/simple-ciphers.git)"
+    "url": "git+https://github.com/VadoSVad/simple-ciphers.git"
   },
   "keywords": [
-    "cipher"
+    "cipher",
+    "caesar",
+    "morse",
+    "binary",
+    "encrypting"
   ],
   "author": "VadoSVad",
   "license": "MIT"
