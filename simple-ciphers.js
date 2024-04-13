@@ -14,18 +14,18 @@ const SimpleCiphers = {
         return dec_text;
     },
 
-    caesar_encrypt: (text) => {
+    caesar_encrypt: (text, step) => {
         let caesar_text = '';
         for (t in text) {
-            caesar_text += String.fromCharCode(text.charCodeAt(t) + 1);
+            caesar_text += String.fromCharCode(text.charCodeAt(t) + step);
         }
         return caesar_text;
     },
 
-    caesar_decrypt: (enc_text) => {
+    caesar_decrypt: (enc_text, step) => {
         let dec_text = '';
         for (t in enc_text) {
-            dec_text += String.fromCharCode(enc_text.charCodeAt(t) - 1);
+            dec_text += String.fromCharCode(enc_text.charCodeAt(t) - step);
         }
         return dec_text;
     }
