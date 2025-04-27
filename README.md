@@ -1,5 +1,7 @@
 # SimpleCiphers
 
+[![Npm package yearly downloads](https://badgen.net/npm/dy/simple-ciphers)](https://www.npmjs.com/package/simple-ciphers)
+
 A convenient library for encrypting strings with simple encryption methods
 
 ## Installation
